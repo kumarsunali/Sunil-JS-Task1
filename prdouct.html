@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>product the page</title>
+    <link rel="stylesheet" type="text/css" href="product.css">
+
+</head>
+
+<body class="productcarts">
+    <div class="logoutfooter">
+        <input type="button" name="log_button" id="log_button" value="Logout" onclick="deletelocal();">
+    </div>
+    <div class="fromapage">
+        <form>
+            <input type="hidden" id="productId">
+            <input type="text" name="product_name" id="product_name" placeholder="Enter the product name">
+            <br>
+            <input type="text" name="product_cost" id="product_cost" placeholder="Enter the product">
+            <br>
+            <input type="button" name="Submit_button" id="Submit_button" value="Submit" onclick="enterproduct();">
+            <input type="button" name="update_button" id="update_button" value="Update" onclick="updateProduct();" style="display: none">
+        </form>
+    </div>
+    <div class="ordertable">
+        <table border="1" id="productsTable">
+            <thead>
+                <th>Id</th>
+                <th>Productname</th>
+                <th>Count</th>
+                <th>Price</th>
+                <th>Action</th>
+            </thead>
+            <tbody id="product_list_body">
+            </tbody>
+        </table>
+    </div>
+     <script type="text/javascript" src="orderpage.js"></script>
+</body>
+
+</html>

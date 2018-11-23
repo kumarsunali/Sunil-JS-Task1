@@ -1,0 +1,149 @@
+body {
+    background-color: #bdbdb8;
+    margin: auto;
+}
+
+.loginMaindiv {
+    background-color: white;
+    height: 200px;
+    width: 37%;
+    margin-left: 422px;
+}
+
+.footerdiv {
+    height: 50px;
+    width: 40%;
+    margin-left: 425px;
+    margin-top: 120px;
+    display: inline-flex;
+}
+
+.footerdivlogo {
+    height: 50px;
+    width: 80px;
+}
+
+.footerheading {
+    height: 50px;
+    width: 415px;
+}
+
+.heading {
+    margin: auto;
+    /* text-align: center; */
+    margin-left: 7px;
+    margin-top: 7px;
+    color: #0b5dc5c7;
+    /* margin-top: 50px; */
+}
+
+.usernamedesign {
+    height: 23px;
+    width: 288px;
+    text-align: center;
+    border-color: cadetblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 82px;
+    margin-top: 30px;
+}
+
+/*
+.usernamedesign:hover {
+    border-color: red;
+    border: red;
+}*/
+
+.passworddesign {
+    height: 23px;
+    width: 288px;
+    text-align: center;
+    border-color: cadetblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 82px;
+}
+
+.Loginbutton {
+    height: 28px;
+    width: 294px;
+    text-align: center;
+    margin-top: 22px;
+    background-color: #5899ce;
+    border-bottom-color: #5899ce;
+    margin-left: 80px;
+}
+
+/*product html page start here*/
+
+.productcarts{
+  background-color: #adad54;
+}
+
+.logoutfooter {
+   /* border: 1px solid black;*/
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+}
+
+#log_button {
+    margin-left: 1187px;
+    margin-top: 9px;
+}
+
+.fromapage {
+    /*border: 1px solid black;*/
+    height: 150px;
+    width: 24%;
+    margin-left: 500px;
+    margin-top: 78px;
+    background-color: white;
+}
+
+#product_name {
+    margin-left: 63px;
+    height: 24px;
+    width: 176px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#product_cost {
+    margin-left: 63px;
+    height: 24px;
+    width: 176px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#Submit_button {
+    margin-left: 63px;
+    height: 24px;
+    width: 176px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#update_button {
+    margin-left: 63px;
+    height: 24px;
+    width: 176px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ordertable {
+   /* border: 1px solid black;*/
+    height: 230px;
+    width: 50%;
+    margin-left: 309px;
+    margin-top: 20px;
+    background-color: darkseagreen;
+}
+
+#productsTable {
+    margin-left: 175px;
+    margin-top: 75px;
+    background-color: whitesmoke;
+}
